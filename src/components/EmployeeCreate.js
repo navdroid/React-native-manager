@@ -29,7 +29,7 @@ class EmployeeCreate extends Component{
 
           />
         </CardSection>
-        <CardSection style={{ flexDirection:'column' }}>
+        <CardSection style={{ flexDirection:'column', justifyContent: 'center' }}>
           <Text style={styles.pickerTextStyle }>Shift</Text>
           <Picker
             style={{flex: 1}}
